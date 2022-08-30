@@ -1,0 +1,27 @@
+{
+  "name": "shortly",
+  "version": "1.0.0",
+  "description": "Project made using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlzyWelzy/shortly.git"
+  },
+  "keywords": [
+    "shortly",
+    "TailwindCSS"
+  ],
+  "author": "AlzyWelzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlzyWelzy/shortly/issues"
+  },
+  "homepage": "https://github.com/AlzyWelzy/shortly#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
